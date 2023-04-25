@@ -1,0 +1,79 @@
+body {
+  background: white;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  background-image: url("images/clounds2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  left: 40px;
+}
+
+h1,
+h2 {
+  color: #7c7c7c;
+  font-size: 20px;
+  position: relative;
+  text-align: left;
+  top: 30px;
+  margin: 0;
+  padding: 0;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+form {
+  position: absolute;
+  top: 110px;
+  left: 370px;
+}
+
+.col-2,
+.col-12 {
+  position: relative;
+  top: 20px;
+  left: 40px;
+  font-size: 12px;
+  line-height: 3;
+}
+
+span {
+  font-weight: bold;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 80px 350px; /* Center the container in the page */
+  text-align: center;
+  background-image: url("images/clounds2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 20%);
+}
+
+.temperature,
+.units {
+  color: black;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 2;
+  left: 40px;
+  top: 15px;
+}
+
+img {
+  position: relative;
+  width: 30px;
+  bottom: 20px;
+  left: -40px;
+}
+
+ul {
+  list-style: none;
+}
