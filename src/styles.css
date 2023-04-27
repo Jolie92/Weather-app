@@ -96,3 +96,16 @@ ul {
 .width100 {
   width: 100%;
 }
+
+.footer {
+  font-size: 10px;
+  top: 480px;
+  left: 45px;
+  color: black;
+  text-decoration: underline;
+  position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+  
+}
