@@ -74,7 +74,6 @@ span {
 .units {
   color: black;
   position: relative;
-  font-size: 20px;
   font-weight: 300;
   line-height: 2;
   left: 40px;
@@ -110,4 +109,9 @@ ul {
 }
 .temperature {
   font-size: 40px;
+}
+
+.units {
+  top: 1px;
+  font-size: 17px;
 }
