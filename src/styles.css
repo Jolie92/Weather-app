@@ -76,7 +76,7 @@ span {
   position: relative;
   font-weight: 300;
   line-height: 2;
-  left: 40px;
+  left: 90px;
   top: 15px;
 }
 
@@ -114,4 +114,8 @@ ul {
 .units {
   top: 1px;
   font-size: 17px;
+}
+.current-weather {
+  top: 15px;
+  left: -240px;
 }
