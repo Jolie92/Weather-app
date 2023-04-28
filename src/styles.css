@@ -1,7 +1,6 @@
 body {
   background: white;
   font-family: "Edu NSW ACT Foundation", cursive;
-  background-image: url("images/clouds2.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -65,7 +64,7 @@ span {
   margin: 80px 350px;
   /* Center the container in the page */
   text-align: center;
-  background-image: url("images/clouds2.jpg");
+  
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 20%);
