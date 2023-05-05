@@ -47,10 +47,6 @@ form {
   line-height: 3;
 }
 
-span {
-  font-weight: bold;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -64,7 +60,7 @@ span {
   margin: 80px 350px;
   /* Center the container in the page */
   text-align: center;
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 20%);
@@ -76,8 +72,14 @@ span {
   position: relative;
   font-weight: 300;
   line-height: 2;
-  left: 90px;
+  left: 40px;
   top: 15px;
+}
+.weather-temperature img {
+  left: 18px;
+  top: 20px;
+  height: 64px;
+  width: 64px;
 }
 
 img {
@@ -102,10 +104,9 @@ ul {
   color: black;
   text-decoration: underline;
   position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
-  
+  bottom: 0;
+  right: 0;
+  padding: 10px;
 }
 .temperature {
   font-size: 40px;
@@ -118,4 +119,8 @@ ul {
 .current-weather {
   top: 15px;
   left: -240px;
+}
+.active {
+  color: black;
+  font-weight: bold;
 }
