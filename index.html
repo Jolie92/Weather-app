@@ -32,103 +32,54 @@
             </div>
           </div>
         </form>
-        <div class="overview">
+        <div class="overview" id="info">
           <h1 id="city"></h1>
           <h2>
             <ul>
               <li id="date"></li>
               <li id="description"></li>
             </ul>
+          </h2>
         </div>
-        </h2>
+
 
         <div class="row">
           <div class="col-6">
             <div class="clearfix weather-temperature">
               <img src="http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png" alt="Clear" id="icon"
-                class="float-left" />
+                class="images" />
               <div class="float-left">
-                <strong>
+                <div class="col-8">
+
                   <span class="temperature" id="temperature"></span>
-                </strong>
-                <span class="units">
-                  <a href="#" id="celsius-link" class="active">°C</a> |
-                  <a href="#" id="fahrenheit-link">°F</a>
-                </span>
+
+                  <span class="units">
+                    <a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-6">
             <ul>
               <li>Humidity: <span id="humidity"></span>%</li>
               <li>Wind: <span id="wind"></span> km/h</li>
             </ul>
           </div>
-          <div class="row width100">
-            <div class="col-2">
-              Thu 23
-              <div class="col-12">
-                <img src="https://statics.clima.com/images/weather/svg/v1/32/d000.svg" />
-              </div>
-            </div>
-            <div class="col-2">
-              Fri 24
-              <div class="col-12">
-                <img src="https://statics.clima.com/images/weather/svg/v1/32/d210.svg" />
-              </div>
-            </div>
-            <div class="col-2">
-              Sat 25
-              <div class="col-12">
-                <img src="https://statics.clima.com/images/weather/svg/v1/32/d200.svg" />
-              </div>
-            </div>
-            <div class="col-2">
-              Sun 26
-              <div class="col-12">
-                <img src="https://statics.clima.com/images/weather/svg/v1/32/d410.svg" />
-              </div>
-            </div>
-            <div class="col-2">
-              Mon 27
-              <div class="col-12">
-                <img src="https://statics.clima.com/images/weather/svg/v1/32/d210.svg" />
-              </div>
-            </div>
-          </div>
-          <div class="row width100">
-            <div class="col-2">
-              <span class="bold">6°</span>
-              14°
-            </div>
-            <div class="col-2">
-              <span class="bold">6°</span>
-              12°
-            </div>
-            <div class="col-2">
-              <span class="bold">6°</span>
-              12°
-            </div>
-            <div class="col-2">
-              <span class="bold">4°</span>
-              8°
-            </div>
-            <div class="col-2">
-              <span class="bold">-1°</span>
-              8°
-            </div>
-          </div>
-        </div>
-      </div>
-      </br>
-      <p class="footer">
-        This project is coded by <strong>Laura Loriga</strong>
-        </br>
-        <a class="githubLink" href="https://github.com/Jolie92/Weather-app" target="_blank">GitHub, </a>
 
-      </p>
-      <script src="src/index.js"></script>
+          <div class="weather-forecast" id="forecast"></div>
+
+
+          </br>
+          <p class="footer">
+            This project is coded by <strong>Laura Loriga</strong>
+            </br>
+            <a class="githubLink" href="https://github.com/Jolie92/Weather-app" target="_blank">GitHub, </a>
+
+          </p>
+          <script src="src/index.js"></script>
 
   </body>
 

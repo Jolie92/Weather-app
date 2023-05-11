@@ -5,46 +5,31 @@ body {
   background-size: cover;
 }
 
-h1 {
-  left: 40px;
-  font-weight: bold;
-  color: black;
-  font-size: 25px;
-  line-height: 3;
+.overview {
   position: relative;
+  line-height: 1;
+  top: 50px;
+}
+
+h1 {
+  position: relative;
+  color: black;
+  font-size: 30px;
   text-align: left;
-  top: 20px;
-  margin: 0;
-  padding: 0;
-  font-weight: 100;
-  line-height: 19px;
+  left: 40px;
 }
 
 h2 {
   color: #7c7c7c;
   font-size: 20px;
-  position: relative;
+  left: 100px;
   text-align: left;
-  top: 30px;
-  margin: 0;
-  padding: 0;
-  font-weight: 100;
-  line-height: 19px;
 }
 
 form {
   position: absolute;
   top: 110px;
   left: 370px;
-}
-
-.col-2,
-.col-12 {
-  position: relative;
-  top: 20px;
-  left: 40px;
-  font-size: 12px;
-  line-height: 3;
 }
 
 .container {
@@ -72,29 +57,26 @@ form {
   position: relative;
   font-weight: 300;
   line-height: 2;
-  left: 40px;
-  top: 15px;
 }
-.weather-temperature img {
-  left: 18px;
-  top: 20px;
+
+.sun {
+  position: relative;
+  left: 32px;
+  bottom: -10px;
   height: 64px;
   width: 64px;
 }
 
-img {
+.images {
   position: relative;
-  width: 30px;
-  bottom: 20px;
-  left: -40px;
+  top: 45px;
+  width: 64px;
+  height: 64px;
+  left: -10px;
 }
 
 ul {
   list-style: none;
-}
-
-.width100 {
-  width: 100%;
 }
 
 .footer {
@@ -108,19 +90,44 @@ ul {
   right: 0;
   padding: 10px;
 }
+
 .temperature {
+  position: relative;
   font-size: 40px;
+  top: 35px;
+  left: 20px;
 }
 
 .units {
-  top: 1px;
+  position: relative;
   font-size: 17px;
+  top: -30px;
+  left: 80px;
 }
+
 .current-weather {
   top: 15px;
   left: -240px;
 }
-.active {
-  color: black;
-  font-weight: bold;
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-forecast-date {
+  position: relative;
+  font-size: 18px;
+  left: 30px;
+  top: 10px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  position: relative;
+  font-size: 13px;
+  top: 10px;
+  left: 35px;
 }
