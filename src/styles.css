@@ -58,6 +58,10 @@ form {
   font-weight: 300;
   line-height: 2;
 }
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
 
 .sun {
   position: relative;
@@ -100,9 +104,9 @@ ul {
 
 .units {
   position: relative;
-  font-size: 17px;
+  font-size: 15px;
   top: -30px;
-  left: 80px;
+  left: 70px;
 }
 
 .current-weather {
