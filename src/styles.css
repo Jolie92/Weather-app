@@ -84,15 +84,15 @@ ul {
 }
 
 .footer {
-  font-size: 10px;
-  top: 480px;
-  left: 45px;
-  color: black;
-  text-decoration: underline;
   position: fixed;
   bottom: 0;
-  right: 0;
-  padding: 10px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 10px;
+  top: 480px;
+  left: 15px;
+  text-decoration: underline;
 }
 
 .temperature {
