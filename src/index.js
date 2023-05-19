@@ -96,6 +96,8 @@ function displayTemperature(response) {
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
 
+  celsiusLink.classList.add("active");
+  fahrenheitLink.classList.remove("active");
   getForecast(response.data.coord);
 }
 
@@ -162,6 +164,5 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("London");
-
 
 
