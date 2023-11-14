@@ -45,7 +45,7 @@ form {
   margin: 80px 350px;
   /* Center the container in the page */
   text-align: center;
-
+padding-top: 20px;
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0px 0px 15px 5px rgb(0 0 0 / 20%);
